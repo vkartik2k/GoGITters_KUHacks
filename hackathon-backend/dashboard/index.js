@@ -60,7 +60,7 @@ function loadCourses() {
                             else {
                                 courseContent += templates.liveClass[3] + variables.courseDetails.link + templates.liveClass[1] + variables.courseDetails.link + templates.liveClass[2]
                             }
-                            courseContent += templates.lowerClass[0] + data.attention + '%' + templates.lowerClass[1] + data.attendence + "%" + templates.lowerClass[2]
+                            courseContent += templates.lowerClass[0] + '100' + '%' + templates.lowerClass[1] + '100' + "%" + templates.lowerClass[2]
                             $('.classContent').html(courseContent)
                             $('.emptyContent').hide()
                             $('.classContent').show()
@@ -120,6 +120,11 @@ $(document).ready(function () {
         $("#logOutBtn").click(() => {
             localStorage.clear()
             window.location.href = '/login'
+        })
+        $(document).click(function (e) {
+            if ($('#joinRoomOverlay').is(e.target) && !$('#joinRoomContainer').is(e.target)) {
+                $('#joinRoomOverlay').hide()
+            }
         })
         $("#addClassroom").click(function() {
             $('#joinRoomOverlay').show()

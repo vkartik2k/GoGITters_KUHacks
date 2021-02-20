@@ -111,7 +111,7 @@ function loadCourses() {
                                     data.classroom.sessions.forEach(session => {
                                         var d = (new Date(session.createdAt)).toString().split(" ");
                                         var date1 = d[1] + " " + d[2] + " " + d[3]
-                                        newContent2 += templates.sessionDetails[0] + session.sessionName + templates.sessionDetails[1] + date1 + templates.sessionDetails[2] + '80%' + templates.sessionDetails[3] + session.attentiveness + templates.sessionDetails[4] + session.understanding + templates.sessionDetails[5]
+                                        newContent2 += templates.sessionDetails[0] + session.sessionName + templates.sessionDetails[1] + date1 + templates.sessionDetails[2] + '25%' + templates.sessionDetails[3] + '25%' + templates.sessionDetails[4] + '25%' + templates.sessionDetails[5]
                                     })
                                     $('.classContent2').html(newContent2)
                                     let courseDetail = templates.classContent[0] + data.classroom.className + templates.classContent[1] + data.classroom.classId + templates.classContent[2]
@@ -147,7 +147,7 @@ function loadCourses() {
                                                             let inputJson = {}
                                                             inputJson.sessionName = $('#sessionName').val()
                                                             console.log(inputJson.sessionName)
-                                                            inputJson.cutOff = $('#cutoff').val()
+                                                            inputJson.cutoff = $('#cutoff').val()
                                                             inputJson.classNote = variables.uploadFile
                                                             postData('../../user/' + user._id + '/classroom/' + element._id + '/createSession', inputJson)
                                                                 .then(data => {

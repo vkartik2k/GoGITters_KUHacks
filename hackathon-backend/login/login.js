@@ -49,6 +49,14 @@ $(document).ready(function () {
 				alert(data.error)
 			}
 		});	
+	})
+
+	$("#signUpBtn").click(() => {
+		let email = $("#signUpEmail").val()
+		let password = $("#signUpPassword").val()
+		let first = $("#signUpFirstName").val()
+		let last = $("#signUpLastName").val()
+		let role = $("#signUpRole").val()
 
 
 		postData('../route/signup', { email:email, password:password, role: role, firstName: first, lastName: last })

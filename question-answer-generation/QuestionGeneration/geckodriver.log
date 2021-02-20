@@ -1,0 +1,230 @@
+1611128432863	geckodriver	INFO	Listening on 127.0.0.1:59973
+1611128432870	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezu5bev"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611128453036	Marionette	INFO	Listening on port 36341
+1611128453343	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1611128553117	geckodriver	INFO	Listening on 127.0.0.1:46423
+1611128554145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1kyq3l"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://activity-stream/lib/ASRouterNewTabHook.jsm, line 61: TypeError: this._router is null
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1611128686325	geckodriver	INFO	Listening on 127.0.0.1:37367
+1611128686333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo3SE9m"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611128690442	Marionette	INFO	Listening on port 43073
+1611128690636	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1611128703046	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+Exiting due to channel error.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611129178040	geckodriver	INFO	Listening on 127.0.0.1:48797
+1611129178051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGXHKdd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611129182854	Marionette	INFO	Listening on port 38201
+1611129182891	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1611129194205	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1611129217073	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1611129481319	geckodriver	INFO	Listening on 127.0.0.1:49289
+1611129481326	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQwsnNA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611129487750	Marionette	INFO	Listening on port 33341
+1611129488682	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1611129652038	geckodriver	INFO	Listening on 127.0.0.1:58755
+1611129652046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9A6T2n"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611129656165	Marionette	INFO	Listening on port 34631
+1611129656303	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611129668812	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1611129860027	geckodriver	INFO	Listening on 127.0.0.1:37733
+1611129860036	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBTUMbs"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611129863945	Marionette	INFO	Listening on port 43285
+1611129864071	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1611129875160	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1611129899087	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 24: TypeError: browser is null
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://meet.google.com/_/scs/mss-static/_/js/k=boq-rtc.MeetingsUi.en.Tv_Sf_lbQJk.es5.O/am=AQBGBAA0EcD2iwwgAACiBAAAEAAD5AcAAAAAIMUg5uD_QIoBAEQrAACAEyAgCIA/d=1/excm=_b,_tp,calldesktoppageview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSGRPDu2Id0np7SVuNb-vTEp3z4Kjw/m=_b,_tp, line 598: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://meet.google.com/_/scs/mss-static/_/js/k=boq-rtc.MeetingsUi.en.Tv_Sf_lbQJk.es5.O/am=AQBGBAA0EcD2iwwgAACiBAAAEAAD5AcAAAAAIMUg5uD_QIoBAEQrAACAEyAgCIA/d=1/excm=_b,_tp,calldesktoppageview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSGRPDu2Id0np7SVuNb-vTEp3z4Kjw/m=_b,_tp, line 598: NS_ERROR_NOT_INITIALIZED: 
+1611299530961	geckodriver	INFO	Listening on 127.0.0.1:34193
+1611299530967	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileacKGsm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611299548117	Marionette	INFO	Listening on port 34557
+1611299548418	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1611299654722	geckodriver	INFO	Listening on 127.0.0.1:39853
+1611299654729	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQlnpqj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611299658944	Marionette	INFO	Listening on port 34715
+1611299658997	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1611299864504	Marionette	INFO	Stopped listening on port 34715
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613825608890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wN4cd6lgfMbW"
+1613825623895	Marionette	INFO	Listening on port 39391
+1613825624160	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613825624236	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1613825767770	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zIUoYv7l5y88"
+1613825771809	Marionette	INFO	Listening on port 39059
+1613825771934	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613825771989	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1613825784007	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 24: TypeError: browser is null
+JavaScript error: https://meet.google.com/_/scs/mss-static/_/js/k=boq-rtc.MeetingsUi.en.xD3ok4eFKhE.2020.O/am=YQCgRAAATQhQv2AGEAAAogQAADAAAuQDAEAMAABSBsIM_g8gJQAA0QoAAIATlJAAAQ/d=1/excm=_b,_tp,calldesktoppageview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSFUxMeOYmC75aq7Q0q0OdeNuC-pqw/m=_b,_tp, line 536: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://meet.google.com/_/scs/mss-static/_/js/k=boq-rtc.MeetingsUi.en.xD3ok4eFKhE.2020.O/am=YQCgRAAATQhQv2AGEAAAogQAADAAAuQDAEAMAABSBsIM_g8gJQAA0QoAAIATlJAAAQ/d=1/excm=_b,_tp,calldesktoppageview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSFUxMeOYmC75aq7Q0q0OdeNuC-pqw/m=_b,_tp, line 536: NS_ERROR_NOT_INITIALIZED: 
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1613827806217	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2WbwQF48dDgc"
+1613827822085	Marionette	INFO	Listening on port 33153
+1613827822268	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613827822318	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1613827836482	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1613828527512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JTOegNc5ePb5"
+1613828531722	Marionette	INFO	Listening on port 42593
+1613828531955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613828531990	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1613828711498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.f7aJdjFpz30C"
+1613828715140	Marionette	INFO	Listening on port 36625
+1613828715236	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613828715253	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1613828728539	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1613829899429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.whzlFMBTxxT4"
+1613829903502	Marionette	INFO	Listening on port 36601
+1613829903617	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613829903637	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1613829916130	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1613829941106	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.
+JavaScript error: , line 0: NotAllowedError: The request is not allowed by the user agent or the platform in the current context.

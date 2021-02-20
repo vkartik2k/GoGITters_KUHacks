@@ -37,6 +37,38 @@ router.post("/user/:userId/classrooms",async (req,res) => {
         console.log(error);
     }
 })
+// info of classroom
+router.post("/user/:userId/classroom/:classroomId",async (req,res) => {
+    try {
+        var classroom = await Classroom.findOne({_id: req.params.classroomId}).populate([{
+            path: 'sessions',
+            select:'_id rounds createdAt sessionName sessionEnd',
+        },{path:'teacher',select:'firstName lastName'}]).populate('tempQuestions')
+        if(classroom){
+            const userAttendence = await UserAttendence.findOne({studentId: req.params.userId, classroom:req.params.classroomId}).populate({path:'attendedSessions.sessionId',select: 'sessionName'})
+            var currentSession = null;
+            for (const session of classroom.sessions) {
+                if(!session.sessionEnd){
+                    currentSession = session
+                    console.log("ubdubbgiubfrh",session.sessionEnd)
+                }
+            }
+            var attention=0,l=userAttendence.attendedSessions.length;
+            for (const att of userAttendence.attendedSessions) {
+                attention+=att.attention
+            }
+            attention = (attention/l)*100;
+            var attendence = (l/classroom.sessions.length)*100
+            console.log(attention,attendence,userAttendence,currentSession)
+            res.status(200).json({done: true,classroom,attention,attendence,userAttendence:userAttendence.attendedSessions,currentSession})
+    
+        }else{
+            res.status(422).json({done: false,error:"classroom doesnt exist"})
+         }
+        } catch (error) {
+        console.log(error);
+    }
+})
 
 router.post('/user/:userId/round/:roundId',async (req,res)=>{
     try {

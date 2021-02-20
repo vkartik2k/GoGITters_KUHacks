@@ -275,7 +275,7 @@ router.post('/user/:userId/classroom/:classroomId/endSession/:sessionId',async (
                 var pr = ((score1/n)*100>=session.cutoff ? true : false)
                 console.log("i ka info",score1,score2,pr)
                 if(pr){
-                    const u = await UserAttendence.findOne({studentId: i.toString()})
+                    let u = await UserAttendence.findOne({studentId: i.toString()})
                     console.log(u);
                     u.attendedSessions.push({sessionId:session._id,attention:score1/n})
                     u.save(err=>{
