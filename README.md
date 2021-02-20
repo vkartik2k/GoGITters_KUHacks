@@ -39,3 +39,6 @@ iota@admin:~$ java -cp stanford-postagger.jar edu.stanford.nlp.tagger.maxent.Max
 ## Teacher Dashboard
 ![Screenshot](s3.png)
 
+## iota.ai BOT
+![Screenshot](s4.png)
+
