@@ -1,5 +1,11 @@
 # IOTA - Intelligent Online Teaching Assistant
 
+<div align="center">
+<img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
+<!-- <img src="http://hits.dwyl.com/abhisheknaiidu/awesome-github-profile-readme.svg" alt="Hits Badge"/> -->
+<img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
+</div>
+
 IOTA stands for Intelligent Online Teaching Assistant, and as the name suggests, it is a teaching assistant built for online classes. Students attending online classes often find it boring due to low interactivity, which leads to less productivity. Iota.ai is a simple web-based classroom tool, powered by an AI algorithm that enables the teacher to ask automated AI-generated questions to the students randomly. This not only helps students to make class interactive but also makes it possible to measure the overall understanding and attentiveness of a class.
 
 The questions asked are generated using a Natural Language Processing technique that takes the content (covered in class) as the input, and the question is asked from the students to gauge their attentiveness(whether they are present in the class) as well as understanding(whether they understood the concepts taught in the class). We also provide a feature to automatically take attendance using a Google Meet Bot which joins in the class as soon as the class is started.
@@ -91,10 +97,3 @@ iota@admin:~$ java -cp stanford-postagger.jar edu.stanford.nlp.tagger.maxent.Max
 
 ## iota.ai BOT
 ![Screenshot](assets/s4.png)
-
-
-<div align="center">
-<img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
-<!-- <img src="http://hits.dwyl.com/abhisheknaiidu/awesome-github-profile-readme.svg" alt="Hits Badge"/> -->
-<img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
-</div>
