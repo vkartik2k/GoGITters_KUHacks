@@ -3,9 +3,17 @@
 ## Quick Access to Files
 
 Dashboard - [HTML](NodeJS_Server/dashboard/index.html) [JS](NodeJS_Server/dashboard/index.js)
+
+
 Index file for NodeJS_Server - [JS](NodeJS_Server/index.js)
+
+
 Instruction to run Flask_server - [Instructions](Flask_Server/readme.md)
+
+
 Index file for Flask_Server - [Python_File](Flask_Server/run_api.py)
+
+
 
 ## Instruction to setup
 
