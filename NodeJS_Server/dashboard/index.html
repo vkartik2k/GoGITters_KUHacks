@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="loading">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    
+    <div id="joinRoomOverlay">
+        <div id="joinRoomContainer">
+            <input class="textInput" placeholder="Room Id" id="joinRoomId"/>
+            <br/>
+            <br/>
+            <button class="btn" id="joinRoomBtn">Join Room</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="main">
+            <div class="headerContainer">
+                <div class="focio">iota<span style="font-weight: 600; color: #6A1B4D;">.ai</span></div>
+                <div>
+                    <div id="logOutBtn" class="btn">Log Out</div>
+                </div>
+            </div>
+
+            <div class="emptyContent"></div>
+            
+            <div class="classContent" style="display: none;" >
+                <div class="classBanner"></div>
+                <div class="liveClass"></div>
+                <div class="mainDivider" >
+                    <div class="testWindow" id="testWindow"></div>
+                    <div class="windowDivider"></div>
+                    <div class="attendanceWindow"></div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="navBar">
+            <div class="usernameDetails">
+                <div class="userIcon">
+                    <img src="assets/img/user.png" height="55px">
+                </div>
+                <div id="nameContainer" style="padding-left: 5px; font-size: 16.5px;">
+                </div>
+            </div>
+            <div id="addClassroom" class="addClassroom">
+                <img src="assets/img/plus.png">
+            </div>
+            <div id="classCardContainer">
+                
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
